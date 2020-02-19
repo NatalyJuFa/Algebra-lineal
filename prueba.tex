@@ -1,0 +1,77 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+
+\usepackage[spanish]{babel}
+
+
+\title{Apuntes de programación lineal}
+
+\author{Nataly Julieth Franco Juárez}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Introducción}
+\label{sec:introduccion}
+
+
+
+La forma estándar de un problema de programación lineal es:
+Dados una matriz $A$ y vectores $b,c$, maximizar $c^tx$ sujeto a
+$Ax\leq b$.
+
+
+La forma simplex de un problema de programación lineal es:
+Dado una matriz $A$ y vectores $b,c$, maximizar $c^tx$ sujeto a
+$Ax\leq b$.
+
+
+El método gráfico de un problema de programación lineal es:
+Dada una ecuacion $ax+by+c$, maximizar $ax+by+c$ sujeto a
+$dx+ey\leq n$ (donde n es una constante) y $fx+gy+h\geq n$
+
+EJEMPLOS:
+
+1: Un gerente está planeando cómo distribuir la produccion de dos
+productos entre dos maquinas. Para ser manufacturado cada punto
+requiere cierto tiempo (en horas) en cada una de las maquinas. El
+tiempo requqerido es resumido en la tabla. La maquina 1 esta
+disponible 40 horas a la semana y la maquina2 esta disponible 34 horas
+a la semana. Si la utilidad obtenida al vendedor los productos A y B
+es de 2, 3 pesos por unidad, respectivamente. ¿Cual será la producción
+semanal que maximiza la utilidad?,¿cual es la utilidad maxima?
+
+
+\begin{tabular}{|c|c|c|}
+  \hline
+  &A&B\\
+  \hline
+  maquina1&1&2\\
+  \hline
+  maquina2&1&1
+\end{tabular}
+
+
+2;
+\begin{equation}
+  \label{eq:1}
+  A=
+  \begin{pmatrix}
+    0&1&2\\
+    0&-1&5
+  \end{pmatrix}
+  \begin{pmatrix}
+    2&3&4\\
+    5&6&7
+  \end{pmatrix}
+\end{equation}
+
+
+
+\end{document}
