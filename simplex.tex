@@ -1,0 +1,60 @@
+\documentclass{article}
+
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+
+\title{El método Simplex}
+\author{Nataly Julieth Franco Juárez}
+
+\begin{document}
+
+  \maketitle
+  
+  \section{Introducción}
+  \label{sec:introduccion}
+
+  El método simplex es un algoritmo para resolver problemas de
+  programación lineal. Creado por el fisico matemático George Bernad
+  Dantzig en el año 1947.
+
+ \section{Ejemplo}
+ \label{sec:ejemplo}
+
+ Ilusitramos la aplicación del método simplex con un ejemplo.
+\item Resuelve el siguiente problema
+  \begin{equation}
+    \begin{aligned}
+      \text{Maximizar}
+      \quad $2x_1+2x_2$\\
+      \text{sujeto a}
+      \quad &
+      \begin{aligned}
+        $2x_1+x_2$ \leq 4\\
+        $-x_1-x_2$ \geq -5\\
+      \end{aligned}
+    \end{aligned}
+  \end{equation}
+
+  Paso1; Verificar se este problema esta de forma estandar es decir
+  que tenga la forma:
+
+  a_{1}+a_{2}+...+a{n}&\leq b\\
+   x_1+x_2+...+x_n&\geq 0\\
+
+   \begin{equation}
+    \begin{aligned}
+      \text{Maximizar} \quad  &2x_1+2x_2 \\
+      \text{sujeto a} \quad
+       \begin{aligned}
+        2x_1+x_2 & \leq 4\\
+        -x_1-x_2 & \geq -5\\
+      \end{aligned}
+      \end{aligned}
+  \end{equation}
+      
+
+
+
+  
+\end{document}
